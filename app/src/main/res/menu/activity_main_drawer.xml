@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/addmore"
+            android:icon="@drawable/ic_playlist_add_black_24dp"
+            android:title="Add_morE" />
+        <item
+            android:id="@+id/All_Added"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"
+            android:title="All Added" />
+    </group>
+
+    <item android:title="Explore">
+        <menu>
+            <item
+                android:id="@+id/logs"
+                android:icon="@drawable/ic_ac_unit_black_24dp"
+                android:title="Logs" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
